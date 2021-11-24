@@ -1,12 +1,12 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Fisher Yates Suffle Algorithm Typescript Implementation" />
+  <img src="./.github/app.gif" alt="Fisher Yates Suffle Algorithm" />
 
   &#xa0;
 
   <!-- <a href="https://fisheryatessufflealgorithmtypescriptimplementation.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Fisher Yates Suffle Algorithm Typescript Implementation</h1>
+<h1 align="center">Fisher Yates Suffle Algorithm</h1>
 
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/Arthur-Matias/fisher-yates-suffle-algorithm-typescript-implementation?color=56BEB8">
