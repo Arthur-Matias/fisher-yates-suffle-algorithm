@@ -3,9 +3,12 @@ import getDeck from './GetDeck';
 import './style.css'
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
+const shuffleBtn = document.getElementById("shuffle") as HTMLElement;
 const deck = getDeck();
 
-function suffle(){
+shuffleBtn.onclick = shuffle
+
+function shuffle(){
   let j:number, tempCard:Card;
   
   for (let i = deck.length-1; i > 0; i--) {
@@ -18,13 +21,11 @@ function suffle(){
   renderElements()
 }
 function renderElements(){
-  app.style.height = "100%";
-  app.style.width = "100%";
-  app.style.display = "grid"
   app.style.gridTemplateColumns = `repeat(${Math.floor(Math.sqrt(deck.length)/2)}, 1fr)`;
-
+  app.innerHTML = ""
   for (let i = 0; i < deck.length; i++) {
     app.appendChild(deck[i].render())
   }
 }
-window.onload = suffle;
+
+window.onload = shuffle;
