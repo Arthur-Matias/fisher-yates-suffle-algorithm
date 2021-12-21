@@ -1,5 +1,5 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Fisher Yates Suffle Algorithm" />
+  <img src="./assets/Shuffle.png" alt="Fisher Yates Suffle Algorithm" />
 
   &#xa0;
 
